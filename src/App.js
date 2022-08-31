@@ -14,6 +14,7 @@ function App() {
           <Route path='/:id' element={<Todo />}/>
           <Route path='/:id/edit' element={<Edit />}/>
         </Routes>
+        <nav><Link to='/' >Home</Link></nav>
       </Router>
     </div>
   );
