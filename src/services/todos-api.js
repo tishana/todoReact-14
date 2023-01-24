@@ -1,6 +1,7 @@
 // This file will be our endpoints
 import axios from 'axios'
-const baseURL = "https://express-todo-14.herokuapp.com/todos"
+const baseURL = 'https://express-todos-14-api.onrender.com/todos'
+// const baseURL = "http://localhost:3001/todos"
 
 export const getTodos = () => {
     const URL = baseURL
